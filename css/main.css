@@ -1,0 +1,56 @@
+p {
+    color: blueviolet;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.google-image {
+    background-color: white;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.footer-top {
+    background-color: #dddddd;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.footer-bottom {
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid white;
+}
+
+.footer-link {
+    background-color: #dddddd;
+    border: 5px solid red;
+    width: 33vw;
+    display: flex;
+    justify-content: left;
+}
