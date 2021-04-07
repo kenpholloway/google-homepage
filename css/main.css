@@ -1,5 +1,7 @@
-p {
-    color: blueviolet;
+p, a {
+    font: 14px Roboto,RobotoDraft,Arial,sans-serif;
+    color: rgb(54, 54, 54);
+    text-decoration: none;
 }
 
 .container {
@@ -16,16 +18,43 @@ p {
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 15px 15px 15px 15px;
 }
 
 .google-image {
     background-color: white;
     align-self: center;
+    margin-bottom: 40vw;
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+input {
+    margin-top: 10px;
+    width: 170%;
+    height: 30px;
+    align-self: center;
+    border-radius: 20px;
+    border-color: lightgray;
+    resize: none;
+    
+}
+
+.buttons {
+    display: flex;
+    align-self: center;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    width: 150px;
+    height: 30px;
+    border: none;
 }
 
 .footer {
@@ -36,21 +65,33 @@ p {
 .footer-top {
     background-color: #dddddd;
     display: flex;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 0px 0px 0px 15px;
+    border-bottom: 1px solid slategray ;
 }
 
 .footer-bottom {
     background-color: #dddddd;
     display: flex;
     justify-content: space-between;
-    border: 5px solid white;
 }
 
-.footer-link {
+.footer-link1 {
     background-color: #dddddd;
-    border: 5px solid red;
-    width: 33vw;
+    width: 40%;
+    padding: 15px 15px 15px 15px;
     display: flex;
-    justify-content: left;
+}
+
+.footer-link2 {
+    background-color: #dddddd;
+    width: 50%;
+    padding: 15px 15px 15px 15px;
+    display: flex;
+}
+
+.footer-link3 {
+    background-color: #dddddd;
+    width: 10%;
+    padding: 15px 15px 15px 15px;
+    display: flex;
 }
